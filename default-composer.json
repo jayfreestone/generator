@@ -1,0 +1,15 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "http://packagist.org"
+    }
+  ],
+  "require": {
+    "johnpbloch/wordpress": "*"
+  }
+}

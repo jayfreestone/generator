@@ -1,0 +1,13 @@
+.result {
+	position: relative;
+	background: $backing;
+	height: calc(100vh - #{$header-height});
+	padding: 2rem;
+	border-left: 1px solid darken($backing, 4%);
+}
+
+.result__download {
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+}

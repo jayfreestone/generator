@@ -1,0 +1,14 @@
+.panel {
+	width: 50%;
+	float: left;
+}
+
+.panel--pad {
+	padding: 2rem;
+}
+
+.panel--flex {
+	display: flex;
+	flex-direction: column;
+	height: calc(100vh - #{$header-height});
+}

@@ -1,0 +1,56 @@
+.plugin-form {
+	display: flex;
+	margin-bottom: 4rem;
+
+	button {
+		align-self: flex-end;
+		padding: .65rem 1rem;
+	}
+}
+
+.plugin-form__group {
+	margin-right: 1rem;
+	position: relative;
+
+	&:first-child {
+		flex-grow: 6;
+	}
+
+	label,
+	input {
+		width: 100%;
+	}
+
+	label {
+		display: block;
+		margin-bottom: .5rem;
+	}
+}
+
+.plugin-form__autocomplete {
+	display: none;
+	position: absolute;
+	background: $backing;
+	border: 1px solid darken($backing, 20%);
+	transition: all .4s;
+
+	ul {
+		list-style: none;
+		padding-left: 0;
+		margin: 0;
+	}
+}
+
+.plugin-form__autocomplete--is-open {
+	display: block;
+}
+
+.plugin-form__autocomplete__list-item {
+	padding: .5rem;
+	border-bottom: 1px solid darken($backing, 20%);
+
+	&:focus {
+		background: darken($backing, 10%);
+		outline: 0;
+	}
+}
