@@ -8,7 +8,7 @@ class Header extends React.Component {
 		return (
 			<header className="site-header">
 				<h1>WordPress Composer Generator</h1>
-				<a href="" target="_blank">
+				<a href="https://github.com/jayfreestone/generator" target="_blank">
 					<img width="30" src="dist/img/icon-github.svg" alt="Github Logo" />
 				</a>
 			</header>
